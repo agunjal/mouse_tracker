@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.movement-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+p {
+  max-width: 230px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.red-dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(233, 22, 22);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+}
