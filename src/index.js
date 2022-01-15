@@ -4,7 +4,10 @@ import PositionIndicator from './PositionIndicator'
 import './style.css'
 
 function App() {
-  const [positions, setPositions] = useState({})
+  const [positions, setPositions] = useState({
+    left: 0,
+    top: 0
+  })
 
   const handleMouseMove = (e) => {
     setPositions({
